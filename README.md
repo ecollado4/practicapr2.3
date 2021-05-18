@@ -4,7 +4,7 @@ BUSQUEDA DE UN CAMINO EN UN GRAFO
 
 El proyecto consiste en recorrer el siguiente grafo:
 
-<img src="screenshots/icono.png" height="400" alt="Screenshot"/>
+<img src="screenshots/icono.png" height="400" alt="Capturas de pantalla"/>
 
 # INSTRUCCIONES DE USO #
 
