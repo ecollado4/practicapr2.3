@@ -4,9 +4,9 @@ BUSQUEDA DE UN CAMINO EN UN GRAFO
 
 El proyecto consiste en recorrer el siguiente grafo:
 
+<img src="screenshots/icono.png" height="400" alt="Screenshot"/>
 
-
-#INSTRUCCIONES DE USO#
+# INSTRUCCIONES DE USO #
 
 Este proyecto esta hecho con la herramienta de software Maven:
 
@@ -14,8 +14,13 @@ Este proyecto esta hecho con la herramienta de software Maven:
 mvn compile
 *  Testear:
 mvn test
-
-#LICENCIA#
+*  Generar javadoc:
+mvn javadoc:javadoc
+*  Ejecutar:
+mvn exec:java -D exec.mainClass=pr2.org.Graph
+*  Generar jar:
+mvn package
+# LICENCIA #
 Copyright [2021] [ENRIQUE COLLADO MUÑOZ]
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
