@@ -20,6 +20,8 @@ mvn javadoc:javadoc
 mvn exec:java -D exec.mainClass=pr2.org.Graph
 *  Generar jar:
 mvn package
+# COMENTARIOS DE COMPLEJIDAD #
+
 # LICENCIA #
 Copyright [2021] [ENRIQUE COLLADO MUÑOZ]
 Licensed under the Apache License, Version 2.0 (the "License");
