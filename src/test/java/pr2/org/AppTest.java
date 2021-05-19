@@ -39,14 +39,13 @@ public void graphexist(){
 @Test
 public void annadirV(){
 	assertTrue(grafotest.addVertex(1));
+	assertFalse(grafotest.addVertex(1));
 }
 @Test 
 public void addDosverticesIguales(){
 assertTrue(grafotest.addVertex(1));
 assertFalse(grafotest.addVertex(1));
 }
-
-//con addedge y con contains
 
 @Test //prueba end to end,verifica el flujo completo de la aplicacion, de principio a fin
 public void onePathFindsAPath() throws Exception{

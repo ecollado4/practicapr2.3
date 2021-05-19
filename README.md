@@ -16,8 +16,6 @@ mvn compile
 mvn test
 *  Generar javadoc:
 mvn javadoc:javadoc
-*  Ejecutar:
-mvn exec:java -D exec.mainClass=pr2.org.Graph
 *  Generar jar:
 mvn package
 # COMENTARIOS DE COMPLEJIDAD #

@@ -27,10 +27,6 @@ import java.util.Stack;
 public class Graph<V> {
 
 	private Map<V, Set<V>> adjacencyList = new HashMap<>();
-	
-
-	
-
 /******************************************************************
 * Añade el vértice ‘v‘ al grafo.
 *
@@ -71,10 +67,6 @@ contrario.
 		if(Vecinos1.contains(v2)) {
 			return false;
 		}else {
-			
-//			adjacencyList.put(v1, Vecinos2);
-//			adjacencyList.put(v2, Vecinos1);
-			
 			Vecinos1.add(v2);
 			Vecinos2.add(v1);
 			return true;
